@@ -39,6 +39,43 @@ Share OFT:        0x9A5DBBC717917BAec58E5eca0571075EA2342d5e
 Vault Composer:   0x7f7f66c6fe2473FC477716347C6eA42D0DFC406D
 ```
 
+## Contract Screenshots
+
+### Holesky Testnet (Hub Chain) 
+
+#### Asset OFT Contract
+![Holesky Asset OFT](ss/Holesky/AssetOFT.png)
+
+#### ERC4626 Vault Contract  
+![Holesky ERC4626 Vault](ss/Holesky/ERC4626Vault.png)
+
+#### Share OFT Adapter Contract
+![Holesky Share OFT Adapter](ss/Holesky/ShareOFTAdaptor.png)
+
+### Amoy Testnet (Spoke Chain) 
+
+#### Asset OFT Contract
+![Amoy Asset OFT](ss/Amoy/AssetOFT.png)
+
+#### Share OFT Contract
+![Amoy Share OFT](ss/Amoy/ShareOFT.png)
+
+## Explorer Links
+
+### Holesky Testnet Contracts
+- **Asset OFT**: [0x30647974468D019eb455FA0c14Ba85cCd7C46427](https://holesky.etherscan.io/address/0x30647974468D019eb455FA0c14Ba85cCd7C46427)
+- **ERC4626 Vault**: [0xed551eC80eCF9F59941D65B3474b4b7B4EA4f152](https://holesky.etherscan.io/address/0xed551eC80eCF9F59941D65B3474b4b7B4EA4f152)
+- **Share OFT Adapter**: [0x3Cb670dcb1da1d492BE5Ff8352F1D94F551E5F37](https://holesky.etherscan.io/address/0x3Cb670dcb1da1d492BE5Ff8352F1D94F551E5F37)
+- **Share OFT**: [0xa4d30c2012Cea88c81e4b291dD689D5250a8fB11](https://holesky.etherscan.io/address/0xa4d30c2012Cea88c81e4b291dD689D5250a8fB11)
+- **Vault Composer**: [0x3D25e66FC7AeA970A2d4AeFD0042F47b41373Ce1](https://holesky.etherscan.io/address/0x3D25e66FC7AeA970A2d4AeFD0042F47b41373Ce1)
+
+### Amoy Testnet Contracts
+- **Asset OFT**: [0xE0437f8897f630093E59e0fb8a3570dd9072DC7C](https://amoy.polygonscan.com/address/0xE0437f8897f630093E59e0fb8a3570dd9072DC7C)
+- **ERC4626 Vault**: [0x0a4F49e6273A7F4ADd7e3AFDf4F44BcE37a62345](https://amoy.polygonscan.com/address/0x0a4F49e6273A7F4ADd7e3AFDf4F44BcE37a62345)
+- **Share OFT Adapter**: [0x08ecf76E8876f32Ef354E5D47F61D7b164b14E9B](https://amoy.polygonscan.com/address/0x08ecf76E8876f32Ef354E5D47F61D7b164b14E9B)
+- **Share OFT**: [0x9A5DBBC717917BAec58E5eca0571075EA2342d5e](https://amoy.polygonscan.com/address/0x9A5DBBC717917BAec58E5eca0571075EA2342d5e)
+- **Vault Composer**: [0x7f7f66c6fe2473FC477716347C6eA42D0DFC406D](https://amoy.polygonscan.com/address/0x7f7f66c6fe2473FC477716347C6eA42D0DFC406D)
+
 ## Features
 
 ### Implemented
@@ -217,10 +254,6 @@ deploy/
 3. **Transaction failures**: Check enforced options configuration
 4. **Balance discrepancies**: Wait 1-5 minutes for cross-chain confirmation
 
-### Getting Testnet Tokens
-- **Holesky ETH**: https://holesky-faucet.pk910.de/
-- **Amoy MATIC**: https://faucet.polygon.technology/
-
 ## Contributing
 
 1. Fork the repository
@@ -241,4 +274,4 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-For questions and support, please refer to the LayerZero community channels and documentation. 
+For questions and support, please refer to the LayerZero community channels and documentation.
